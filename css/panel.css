@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.container-fluid {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  padding-top: 20px;
+}
+
+.container-fluid.container-fullw {
+  max-width: 1200px; /* Aumenta el ancho máximo del contenedor */
+}
+
+h3 {
+  padding-left: 335px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-sm-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.panel {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.panel-body {
+  padding: 20px;
+}
+
+.StepTitle {
+  margin-top: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.texto-1 {
+  text-decoration: none;
+  color: #0457af;
+}
+
+.texto-1:hover {
+  color: #2600ff;
+  text-decoration: none;
+}
+
+.fa-stack {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+.fa-2x {
+  font-size: 20px;
+}
+
+.username {
+  color: #0457af;
+}
+
+.a-1 {
+  text-decoration: none;
+  color: #000;
+}
+
+.a-1:hover {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.a-2 {
+  text-decoration: none;
+  color: #000;
+}
+
+.a-2:hover {
+  color: #ff0000;
+}
+
+.container-fluid-1 {
+  max-width: 960px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  padding-top: 20px;
+}
+
+.btn1 {
+  margin-left: auto;
+}
